@@ -1,0 +1,79 @@
+/*------------------------------------------------------
+    ----------------------------------------------------
+    --------------------GENERAL ATTR--------------------
+    ----------------------------------------------------
+    ---------------------------------------------------*/
+
+html{scroll-behavior: smooth;}
+
+html,body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+header{
+    border-top: #EB1946 solid 12px;
+    padding-top:20px;
+    margin-bottom:20px;
+}
+
+/*MENU PRINCIPAL*/
+/*Menu-top*/
+.menu-top ul{padding-top:20px;}
+.menu-top ul li a{
+    background: url('http://localhost/web/compose-ideas/wp-content/uploads/2019/10/menu_hexagon.svg') no-repeat center center;
+    color: #EB1946;
+}
+
+.menu-top ul li a:hover{
+    background: url('http://localhost/web/compose-ideas/wp-content/uploads/2019/10/menu_hexagon_hover.svg') no-repeat center center;
+    color: #fff;
+}
+
+/*Menu bottom*/
+nav.menu-bottom ul{padding-top:30px;}
+
+nav.menu-bottom ul li.nav-item{
+    border-right:1px solid #000;
+    padding-left:26px;
+    padding-right:26px;
+}
+
+nav.menu-bottom ul li.nav-item:first-child{padding-left:0;}
+
+nav.menu-bottom ul li.nav-item:last-child{
+    border-right:none;
+    padding-right:0px;
+}
+
+nav.menu-bottom ul a.nav-link{color:#000;}
+
+/*Titulo de las secciones*/
+h2.titulo-seccion{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-bottom: solid 4px #73C495;
+}
+
+/*Slider - Home*/
+
+div.item-caption{
+    background: rgba(0,0,0,.5);
+    color:#fff;
+    position:absolute;
+    z-index:2;
+    bottom:0;
+    width:100%;
+    padding:10px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .7);
+}
+
+div.item-caption h2{font-size:22px;}
+div.item-caption h4{font-size:18px; font-weight: normal;}
